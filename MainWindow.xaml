@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFTest4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest4"
+        mc:Ignorable="d"
+        Title="Введи:" Height="100" Width="220" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="id Пользователя:" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Right" Height="20" Margin="0,10,10,0" VerticalAlignment="Top" Width="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,12" Text="и Пароль:" VerticalAlignment="Bottom"/>
+        <PasswordBox HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="80"/>
+    </Grid>
+</Window>
